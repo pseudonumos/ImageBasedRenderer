@@ -1,0 +1,22 @@
+README
+
+threaded
+
+gcc -I/home/tim/sift/include/ -L/home/tim/sift/lib/ `pkg-config --cflags --libs opencv` -o blah main.c -lfeat -lgsl -lgslcblas -lglut -lGLU -lGL -lX11 -lfreeimage
+
+./blah /home/tim/Berkeley/Fa09/EE290T/Final\ Project/data/images/	
+
+
+
+
+non-threaded
+
+
+gcc -I/home/tim/sift/include/ -L/home/tim/sift/lib/ `pkg-config --cflags --libs opencv` -o blah2 nonThreadedMain.c -lfeat -lgsl -lgslcblas -lglut -lGLU -lGL -lX11 -lfreeimage
+
+./blah2 /home/tim/Berkeley/Fa09/EE290T/Final\ Project/data/images/
+
+
+
+literature at UNC
+	- several papers to use 3D information to more seamlessly stick images together (fill in images)

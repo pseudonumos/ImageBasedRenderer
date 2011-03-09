@@ -1,0 +1,313 @@
+features - 2.7 seconds x N
+matches - .25 seconds x N^2
+
+all threaded
+
+Number of images: 20
+Time for initialization: 0.00
+Time to load data: 1.00
+Time to generate features: 30.00
+Time to generate matches: 41.00
+Time to generate confidence/norms: 0.00
+Time to search for optimal homographies: 0.00
+Time to transform to world coordinates: 13.00
+Time for rendering: 0.00
+Total Time: 85.00
+
+
+
+Number of images: 80
+Time for initialization: 0.00
+Time to load data: 5.00
+Time to generate features: 117.00
+Time to generate matches: 619.00
+Time to generate confidence/norms: 0.00
+Time to search for optimal homographies: 0.00
+Time to transform to world coordinates: 76.00
+Time for rendering: 0.00
+Total Time: 817.00
+
+
+
+new threaded
+
+
+Number of images: 30
+Time for initialization: 0.00
+Time to load data: 1.00
+Time to generate features: 84.00
+Time to generate matches: 104.00
+Time to generate confidence/norms: 0.00
+Time to search for optimal homographies: 0.00
+Time to transform to world coordinates: 6.00
+Time for rendering: 0.00
+Total Time: 195.00
+
+
+Number of images: 35
+Time for initialization: 0.00
+Time to load data: 2.00
+Time to generate features: 98.00
+Time to generate matches: 142.00
+Time to generate confidence/norms: 0.00
+Time to search for optimal homographies: 0.00
+Time to transform to world coordinates: 7.00
+Time for rendering: 0.00
+Total Time: 249.00
+
+Number of images: 40
+Time for initialization: 0.00
+Time to load data: 2.00
+Time to generate features: 111.00
+Time to generate matches: 191.00
+Time to generate confidence/norms: 0.00
+Time to search for optimal homographies: 0.00
+Time to transform to world coordinates: 15.00
+Time for rendering: 0.00
+Total Time: 319.00
+
+
+
+
+old non-threaded
+
+
+debugging (0%)
+
+Number of images: 20
+Time for initialization: 0.00
+Time to load data: 1.00
+Time to generate features: 54.00
+Time to generate matches: 65.00
+Time to generate confidence/norms: 0.00
+Time to search for optimal homographies: 0.00
+Time to transform to world coordinates: 22.00
+Time for rendering: 0.00
+Total Time: 142.00
+
+
+Number of images: 25
+Time for initialization: 0.00
+Time to load data: 2.00
+Time to generate features: 69.00
+Time to generate matches: 114.00
+Time to generate confidence/norms: 0.00
+Time to search for optimal homographies: 0.00
+Time to transform to world coordinates: 3.00
+Time for rendering: 0.00
+Total Time: 188.00
+
+
+Number of images: 30
+Time for initialization: 0.00
+Time to load data: 2.00
+Time to generate features: 83.00
+Time to generate matches: 186.00
+Time to generate confidence/norms: 0.00
+Time to search for optimal homographies: 0.00
+Time to transform to world coordinates: 78.00
+Time for rendering: 0.00
+Total Time: 349.00
+
+
+Number of images: 35
+Time for initialization: 0.00
+Time to load data: 2.00
+Time to generate features: 97.00
+Time to generate matches: 323.00
+Time to generate confidence/norms: 0.00
+Time to search for optimal homographies: 0.00
+Time to transform to world coordinates: 19.00
+Time for rendering: 0.00
+Total Time: 441.00
+
+
+Number of images: 40
+Time for initialization: 0.00
+Time to load data: 2.00
+Time to generate features: 111.00
+Time to generate matches: 517.00
+Time to generate confidence/norms: 0.00
+Time to search for optimal homographies: 0.00
+Time to transform to world coordinates: 17.00
+Time for rendering: 0.00
+Total Time: 647.00
+
+
+
+debugging (15%)
+
+Number of images: 13
+Time for initialization: 0.00
+Time to load data: 1.00
+Time to generate features: 36.00
+Time to generate matches: 27.00
+Time to generate confidence/norms: 0.00
+Time to search for optimal homographies: 0.00
+Time to transform to world coordinates: 21.00
+Time for rendering: 0.00
+Total Time: 85.00
+
+
+Number of images: 20
+Time for initialization: 0.00
+Time to load data: 1.00
+Time to generate features: 54.00
+Time to generate matches: 64.00
+Time to generate confidence/norms: 0.00
+Time to search for optimal homographies: 0.00
+Time to transform to world coordinates: 7.00
+Time for rendering: 0.00
+Total Time: 126.00
+
+Number of images: 40
+Time for initialization: 0.00
+Time to load data: 2.00
+Time to generate features: 111.00
+Time to generate matches: 532.00
+Time to generate confidence/norms: 0.00
+Time to search for optimal homographies: 0.00
+Time to transform to world coordinates: 22.00
+Time for rendering: 0.00
+Total Time: 667.00
+
+
+
+
+
+
+
+
+
+
+
+
+base index is: 1
+multiplying... i=1, j=0
+   1.006   -0.012   13.280 
+   0.013    1.011  -18.607 
+  -0.000    0.000    1.000 
+
+base index is: 2
+multiplying... i=2, j=1
+   1.012    0.004   -6.942 
+  -0.004    1.007    2.447 
+   0.000   -0.000    1.000 
+
+multiplying... i=1, j=0
+   1.018   -0.008    6.268 
+   0.009    1.018  -16.227 
+   0.000    0.000    1.000 
+
+base index is: 3
+multiplying... i=3, j=2
+   1.022   -0.002  -16.350 
+   0.004    1.009    1.582 
+   0.000   -0.000    1.000 
+
+multiplying... i=2, j=1
+   1.034    0.002  -23.475 
+  -0.000    1.016    4.106 
+   0.000   -0.000    1.000 
+
+multiplying... i=1, j=0
+   1.040   -0.010  -10.384 
+   0.013    1.027  -14.765 
+   0.000   -0.000    1.000 
+
+base index is: 4
+multiplying... i=4, j=3
+   1.022   -0.015   -8.447 
+   0.016    1.011   -8.641 
+   0.000   -0.000    1.000 
+
+multiplying... i=3, j=2
+   1.044   -0.018  -24.965 
+   0.020    1.020   -7.171 
+   0.000   -0.000    1.000 
+
+multiplying... i=2, j=1
+   1.056   -0.014  -32.224 
+   0.016    1.027   -4.671 
+   0.000   -0.000    1.000 
+
+multiplying... i=1, j=0
+   1.063   -0.026  -19.080 
+   0.030    1.038  -23.753 
+   0.000   -0.000    0.999 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2999999.00	22.68	17.00	16.65	26.91	
+22.87	2999999.00	7.28	22.15	29.45	
+17.27	7.36	2999999.00	16.08	24.39	
+17.17	22.86	16.43	2999999.00	11.89	
+28.10	31.06	25.42	12.08	2999999.00	
+
+
+base index is: 1
+multiplying... i=1, j=0
+   0.994   -0.153   15.741 
+   0.153    0.999  -16.578 
+  -0.000    0.000    1.000 
+
+base index is: 2
+multiplying... i=2, j=1
+   0.976   -0.288   10.499 
+   0.290    0.976  -13.871 
+   0.000    0.000    1.000 
+
+multiplying... i=1, j=0
+   0.926   -0.436   28.293 
+   0.439    0.931  -28.827 
+   0.000    0.000    1.000 
+
+base index is: 3
+multiplying... i=3, j=2
+   0.873   -0.568   17.145 
+   0.579    0.868  -32.453 
+   0.000   -0.000    0.999 
+
+multiplying... i=2, j=1
+   0.685   -0.805   36.580 
+   0.818    0.683  -40.577 
+   0.000   -0.000    0.999 
+
+multiplying... i=1, j=0
+   0.556   -0.904   58.284 
+   0.922    0.559  -51.505 
+   0.000    0.000    0.999 
+
+base index is: 4
+multiplying... i=4, j=3
+   0.417   -0.991   69.727 
+   1.018    0.418  -54.955 
+   0.000   -0.000    0.999 
+
+multiplying... i=3, j=2
+  -0.214   -1.102  109.200 
+   1.125   -0.211  -39.757 
+   0.000   -0.000    0.999 
+
+multiplying... i=2, j=1
+  -0.533   -1.015  128.498 
+   1.035   -0.525  -21.050 
+   0.000   -0.000    0.999 
+
+multiplying... i=1, j=0
+  -0.687   -0.929  146.684 
+   0.952   -0.680  -17.904 
+   0.000   -0.000    0.999 
+
